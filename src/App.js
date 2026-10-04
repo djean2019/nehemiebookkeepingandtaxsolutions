@@ -14,59 +14,6 @@ import CreditRepair from './pages/CreditRepair';
 import TaxEstimate from './pages/TaxEstimate';
 
 function App() {
-  const [isConsultationOpen, setIsConsultationOpen] = useState(false);
-
-  const modules = [
-    {
-      id: 1,
-      title: "Tax Preparation",
-      description: "Professional tax preparation services for individuals and businesses",
-      icon: FileText,
-      features: ["Federal & State Returns", "E-filing", "Maximized Deductions", "Audit Support"],
-      route: "/tax-preparation"
-    },
-    {
-      id: 2,
-      title: "Tax Planning",
-      description: "Strategic tax planning to minimize your tax liability year-round",
-      icon: Calculator,
-      features: ["Year-round Planning", "Retirement Strategies", "Investment Guidance", "Business Optimization"],
-      route: "/tax-planning"
-    },
-    {
-      id: 3,
-      title: "Business Services",
-      description: "Comprehensive tax solutions for businesses of all sizes",
-      icon: Users,
-      features: ["Corporate Returns", "Payroll Taxes", "Sales Tax", "Business Consulting"],
-      route: "/business-services"
-    },
-    {
-      id: 4,
-      title: "Tax Resolution",
-      description: "Help with tax problems and IRS negotiations",
-      icon: Shield,
-      features: ["IRS Representation", "Offer in Compromise", "Payment Plans", "Tax Lien Help"],
-      route: "/tax-resolution"
-    },
-    {
-      id: 5,
-      title: "Financial Planning",
-      description: "Holistic financial planning integrated with tax strategy",
-      icon: TrendingUp,
-      features: ["Investment Planning", "Retirement Planning", "Estate Planning", "Wealth Management"],
-      route: "/financial-planning"
-    },
-    {
-      id: 6,
-      title: "Consultation",
-      description: "Expert tax advice and consultation services",
-      icon: Phone,
-      features: ["One-on-One Sessions", "Tax Questions", "Second Opinions", "Special Situations"],
-      route: "/consultation"
-    }
-  ];
-
   return (
     <Router>
       <Routes>

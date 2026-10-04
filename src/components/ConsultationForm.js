@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { X, Phone, Mail, User, FileText } from 'lucide-react';
-import emailjs from '@emailjs/browser';
 
 const ConsultationForm = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({

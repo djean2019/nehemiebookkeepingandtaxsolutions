@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Shield, CheckCircle, AlertCircle, TrendingUp, Clock, Users, FileText, Phone, Mail, MapPin } from 'lucide-react';
+import { ArrowLeft, CheckCircle, Clock, Phone, Mail, MapPin } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const CreditRepair = () => {
