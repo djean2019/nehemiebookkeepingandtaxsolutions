@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeft, Calculator, DollarSign, TrendingUp, Users, Home, Briefcase, PiggyBank, Receipt, Phone, Mail, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
+import { ArrowLeft, Calculator, DollarSign, TrendingUp, Users, Home, PiggyBank, Receipt, Phone, Mail, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const TaxEstimate = () => {
